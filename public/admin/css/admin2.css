@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
+	
+body, html, footer 
+{
+	background-color:rgba(33,148,221,0.5) !important;
+  letter-spacing:1px;
+}
+
+html,body,p, h1, h2, h3, h4 ,h5 ,h6, ul, li, button, input, select, textarea
+{
+	font-family: 'Roboto',Arial,Calibri,Candara,sans-serif !important;	
+	
+}
+
+.mainbar
+{
+  background-color:rgba(33,148,221,0.1) !important;
+}
+
+footer 
+{
+	border:0;
+}
+
+body .navbar, body .message_top_bar
+{
+	background-color:#0f2e56 !important;
+}
+
+body .left_navigation li a
+{
+	border-bottom-color:#eee !important;
+}
+
+body .content,
+body .left_navigation,
+body .left_navigation li a
+{
+	background-color:#fff !important;
+	text-shadow:none !important;
+	color:#555 !important;
+}
+	
+body .left_navigation li a .fa
+{
+   color:#555 !important;
+}
+
+body .left_navigation #nav li .overlay-label
+{
+	display:none !important;
+}
+
+body .left_navigation #nav li:hover > a
+{
+	background-color:#2194dd !important;   
+}
+
+body .left_navigation li.has_sub > a,
+body .left_navigation #nav li > a.open,
+body .left_navigation #nav li > a.subdrop,
+body .left_navigation #nav li.collapseMenuOption > a
+{
+	background-color:rgba(15,46,86,0.8) !important; 
+	color:#fff !important;
+}
+
+body .left_navigation li.has_sub > a .fa,
+body .left_navigation #nav li.active > a .fa-copy,
+body .left_navigation #nav li:hover > a .fa,
+body .left_navigation #nav li > a.open .fa,
+body .left_navigation #nav li.collapseMenuOption > a .fa,
+.active_sorting, .active_sorting.sorting_asc, 
+.active_sorting.sorting_desc, .active_sorting.sorting, 
+.dataTables_wrapper tr th.active_sorting.sorting_asc, 
+.dataTables_wrapper tr th.active_sorting.sorting_desc
+{
+	color:#fff !important;
+}
+
+body .left_navigation #nav li.active > a,
+.active_sorting, .active_sorting.sorting_asc, 
+.active_sorting.sorting_desc, .active_sorting.sorting, 
+.dataTables_wrapper tr th.active_sorting.sorting_asc, 
+.dataTables_wrapper tr th.active_sorting.sorting_desc
+{
+	background-color:#2194dd !important;     
+}
+
+
+.form_field
+{
+  border-bottom-color:#eee;
+}
+
+.form_field input
+{
+  padding:10px;
+}
+
+.form_field textarea
+{
+  border:1px solid #555;
+  width:100%;
+  max-width:500px;
+  min-height:100px;
+}
+
+.form_field label
+{  
+}
+
+.btn
+{
+	letter-spacing:2px;
+	text-transform:uppercase;	
+}
+
+.new_dash
+{
+	background:#fff;
+}
+
+.new_dash p,
+.new_dash .fa,
+.new_dash span,
+.new_dash small,
+.new_dash h2
+{
+	color:#555;
+}
+
+.new_dash .stat_blocks .stat_entity
+{
+	background:#2194dd;
+	
+}
+
+.new_dash .stat_blocks .stat_entity a,
+.new_dash .stat_blocks .stat_entity span,
+.new_dash .stat_blocks .stat_entity .fa,
+.new_dash .stat_blocks .stat_entity .block_title,
+.new_dash .stat_blocks .stat_entity .block_value
+{
+	color:#fff;
+}
+
+.dataTables_wrapper tr th,
+.faux_table_footer
+{
+	background-color:#eee;	
+}
+
+.dataTables_info,
+.dataTables_wrapper tr th
+{
+	color:#555 !important;
+}
+
+.application_ql .btn
+{
+	padding:5px;
+	letter-spacing:1px;
+	text-transform:none;
+}
+
+.default_open_times,
+.set_open_times,
+.set_closed_times
+{
+	padding-left:10px;
+	padding-top:10px
+}
+
+.default_open_times .day,
+.set_open_times .entry,
+.set_closed_times .entry
+{
+	display:inline-block;
+	padding:5px;
+	border:1px solid #555;
+	border-radius:10px;
+	background:#ccc;
+	margin-right:10px;
+	text-align:center
+}
+
+.default_open_times .day .open_from
+{
+	margin-bottom:5px
+}
+
+.set_open_times .entry .open_from,
+.set_open_times .entry .open_until,
+.set_closed_times .entry .open_from,
+.set_closed_times .entry .open_until
+{
+	display:inline-block;
+}
+
+.set_open_times .entry .date,
+.set_closed_times .entry .date
+{
+	font-weight:bold;
+}
+
+.set_open_times .entry .open_until:before,
+.set_closed_times .entry .open_until:before
+{
+	content : ' - ';
+}
+
+.set_open_times .add_new,
+.set_closed_times .add_new
+{
+	margin-top:20px;
+	display:none;
+}
+
+.set_open_times .add_new label,
+.set_closed_times .add_new label
+{
+	clear:both;
+	display:block;
+}
+
+.table_structure
+{
+	width:calc(100% - 20px);
+	display:table;
+	margin:10px;
+	border:1px solid #eee;
+}
+
+.table_structure .table_scrollable
+{
+	width:100%;  
+	display:table-row-group;   
+}
+
+.table_structure .header_row
+{
+	background:#264181;
+	color:#fff;
+	display:table-header-group;
+}
+
+.table_structure .header_row,
+.table_structure .data_row,
+.table_structure .table_add_new_row
+{
+	display:table-row;
+}
+
+.table_structure .header_row .column
+{
+	font-weight:bold;
+}
+
+.table_structure .header_row .column,
+.table_structure .data_row .column,
+.table_structure .table_add_new_row .column
+{
+	display:table-cell;
+	padding:5px;
+	border-bottom:1px solid #ccc;
+	width:auto;
+}
+
+.table_structure.fixed_open_times .table_scrollable
+{
+	max-height:100px !important;
+	width:100%;
+	overflow:hidden;  
+}
+
+.table_container,
+.time_block
+{
+	display:inline-block;
+	width:100%;
+}
+
+.table_container
+{
+	width:45%;
+	margin-top:20px;
+}
+
+.table_container h4
+{
+	margin-left:10px;
+}
+
+.building_change_menu_item
+{
+		text-align:center;	
+	background:rgba(15,46,86,.8);
+	border-bottom:1px solid #fff;
+  padding-bottom:10px;
+  padding-top:5px;
+}
+	
+.building_change_menu_item select
+{
+	margin:0px 10px;
+	width:calc(100% - 20px);
+}
+
+.building_change_menu_item label
+{
+	margin:0px 10px;
+	width:calc(100% - 20px);
+	color:#fff !important;
+	text-align:left;
+	font-weight:normal;
+}

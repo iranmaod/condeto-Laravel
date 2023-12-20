@@ -1,0 +1,78 @@
+<complexes>
+	<complex>
+		<name><![CDATA[Complex One XML]]></name>		
+		<buildings>
+			<building>
+				<name><![CDATA[Building One XML]]></name>
+				<city><![CDATA[The City]]></city>
+				<state><![CDATA[The State]]></state>
+				<zip><![CDATA[01234]]></zip>
+				<apartments>
+					<apartment>
+						<name><![CDATA[Apt One XML]]></name>
+						<fee>789</fee>
+					</apartment>
+					<apartment>
+						<name><![CDATA[Apt Two XML]]></name>
+						<fee>1784</fee>
+					</apartment>
+				</apartments>
+			</building>
+			<building>
+				<name><![CDATA[Building Two XML]]></name>
+				<city><![CDATA[The City]]></city>
+				<state><![CDATA[The State]]></state>
+				<zip><![CDATA[01234]]></zip>
+				<apartments>
+					<apartment>
+						<name><![CDATA[Apt One XML]]></name>
+						<fee>2955</fee>						
+						<bedrooms>2</bedrooms>
+						<bathrooms>3</bathrooms>
+						<square_feet>2333</square_feet>
+						<cover_photo><![CDATA[http://www.yoursite.com/images/assets/482437_2916976.jpg]]></cover_photo>
+						<description><![CDATA[a description here]]></description>
+						<dishwasher>1</dishwasher>
+						<fireplace>true</fireplace>
+						<furnished>1</furnished>
+						<loft>1</loft>
+						<washer_dryer>1</washer_dryer>
+						<doorman>1</doorman>
+						<gym>1</gym>
+						<elevator>1</elevator>
+						<laundry>1</laundry>
+						<pets>1</pets>
+						<pool>1</pool>
+						<garage>1</garage>
+						<parking>1</parking>						
+					</apartment>
+					<apartment>
+						<name><![CDATA[Apt Two XML]]></name>
+						<fee>1599</fee>
+					</apartment>
+				</apartments>
+			</building>
+		</buildings>
+	</complex>
+	<complex>
+		<name><![CDATA[Complex Two XML]]></name>		
+		<buildings>
+			<building>
+				<name><![CDATA[Building Two XML]]></name>
+				<city><![CDATA[The City]]></city>
+				<state><![CDATA[The State]]></state>
+				<zip><![CDATA[01234]]></zip>
+				<apartments>
+					<apartment>
+						<name><![CDATA[Apt One XML]]></name>
+						<fee>499</fee>
+					</apartment>
+					<apartment>
+						<name><![CDATA[Apt Two XML]]></name>
+						<fee>359</fee>
+					</apartment>
+				</apartments>
+			</building>
+		</buildings>
+	</complex>
+</complexes>

@@ -1,0 +1,207 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Nov 07, 2022 at 12:24 PM
+-- Server version: 10.4.25-MariaDB
+-- PHP Version: 8.1.10
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `condeto`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `apt_apply_users`
+--
+
+CREATE TABLE `apt_apply_users` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `user_id` int(10) UNSIGNED NOT NULL DEFAULT 0,
+  `agent_id` int(10) UNSIGNED DEFAULT NULL,
+  `is_admin` tinyint(3) UNSIGNED NOT NULL DEFAULT 0,
+  `is_super_admin` tinyint(3) UNSIGNED NOT NULL DEFAULT 0,
+  `brokerage_id` int(10) UNSIGNED DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `apt_apply_users`
+--
+
+INSERT INTO `apt_apply_users` (`id`, `user_id`, `agent_id`, `is_admin`, `is_super_admin`, `brokerage_id`, `created_at`) VALUES
+(1, 18, NULL, 0, 1, NULL, '2017-08-15 21:47:09'),
+(2, 68, NULL, 0, 1, NULL, '2017-08-15 21:48:53'),
+(3, 1032, NULL, 0, 1, NULL, '2017-08-21 18:06:13'),
+(4, 1033, NULL, 0, 1, NULL, '2017-08-21 18:43:19'),
+(5, 1034, NULL, 0, 1, NULL, '2017-08-21 18:43:27'),
+(6, 1036, 98187, 0, 0, NULL, '2017-09-07 21:43:01'),
+(7, 315, NULL, 0, 1, NULL, '2017-11-02 18:27:10'),
+(8, 1044, NULL, 0, 1, NULL, '2017-11-02 19:56:05'),
+(9, 1026, NULL, 0, 0, NULL, '2017-12-06 18:55:03'),
+(11, 9, NULL, 0, 1, NULL, '2018-03-08 23:30:35'),
+(12, 1053, NULL, 0, 0, NULL, '2018-04-03 13:31:51'),
+(13, 1054, NULL, 0, 0, NULL, '2018-04-03 13:31:56'),
+(14, 1057, NULL, 0, 0, NULL, '2018-04-03 13:31:56'),
+(15, 1058, NULL, 0, 0, NULL, '2018-04-12 17:41:04'),
+(16, 1059, NULL, 0, 0, NULL, '2018-04-18 15:25:31'),
+(18, 1060, NULL, 0, 0, NULL, '2018-05-09 10:32:05'),
+(19, 1061, NULL, 0, 0, NULL, '2018-05-10 08:34:09'),
+(20, 1062, NULL, 0, 0, NULL, '2018-05-10 09:08:37'),
+(21, 1063, NULL, 0, 0, NULL, '2018-05-11 10:07:27'),
+(22, 1064, NULL, 0, 0, NULL, '2018-05-15 08:48:13'),
+(23, 1065, NULL, 0, 0, NULL, '2018-05-23 19:47:28'),
+(24, 1066, NULL, 0, 0, NULL, '2018-05-23 21:22:45'),
+(25, 1067, NULL, 0, 0, NULL, '2018-05-24 08:29:25'),
+(26, 1068, NULL, 0, 0, NULL, '2018-06-07 09:44:48'),
+(27, 1069, NULL, 0, 0, NULL, '2018-06-07 09:45:28'),
+(28, 1070, NULL, 0, 0, NULL, '2018-06-07 10:09:34'),
+(29, 1071, NULL, 0, 1, NULL, '2018-06-11 09:41:02'),
+(30, 1072, NULL, 0, 0, NULL, '2018-06-11 09:44:51'),
+(31, 1073, NULL, 0, 0, NULL, '2018-06-12 18:20:50'),
+(32, 1074, NULL, 0, 0, NULL, '2018-06-13 10:41:19'),
+(33, 1075, NULL, 0, 0, NULL, '2018-06-13 10:41:22'),
+(34, 1077, NULL, 0, 0, NULL, '2018-07-04 11:36:04'),
+(35, 1078, NULL, 0, 0, NULL, '2018-07-06 16:45:04'),
+(36, 1079, NULL, 0, 0, NULL, '2018-07-06 16:45:04'),
+(38, 1081, NULL, 0, 0, NULL, '2018-07-09 13:13:29'),
+(39, 1082, NULL, 0, 0, NULL, '2018-07-09 15:26:26'),
+(40, 1083, NULL, 0, 0, NULL, '2018-07-10 20:16:55'),
+(41, 1084, NULL, 0, 0, NULL, '2018-07-12 20:22:40'),
+(42, 1085, NULL, 0, 0, NULL, '2018-08-03 15:42:39'),
+(43, 1086, NULL, 0, 0, NULL, '2018-08-05 04:59:38'),
+(44, 1087, NULL, 0, 0, NULL, '2018-08-09 00:18:09'),
+(45, 1088, NULL, 0, 0, NULL, '2018-08-13 10:32:13'),
+(46, 1089, NULL, 0, 0, NULL, '2018-08-16 01:35:54'),
+(47, 1090, NULL, 0, 0, NULL, '2018-08-22 09:43:58'),
+(48, 1091, NULL, 0, 0, NULL, '2018-08-24 09:12:25'),
+(49, 1092, NULL, 0, 0, NULL, '2018-08-24 20:00:07'),
+(50, 1093, NULL, 0, 0, NULL, '2018-09-10 01:20:13'),
+(51, 1094, NULL, 0, 0, NULL, '2018-09-11 13:35:06'),
+(52, 1095, NULL, 0, 0, NULL, '2018-09-15 18:10:07'),
+(54, 1097, NULL, 0, 0, NULL, '2018-10-29 04:42:15'),
+(57, 1100, NULL, 0, 0, NULL, '2018-11-13 10:34:58'),
+(58, 1101, NULL, 0, 0, NULL, '2018-12-13 00:15:22'),
+(59, 1102, NULL, 0, 0, NULL, '2018-12-17 15:55:06'),
+(60, 1103, NULL, 0, 0, NULL, '2018-12-17 17:14:30'),
+(61, 1104, NULL, 0, 0, NULL, '2018-12-20 17:39:26'),
+(62, 1105, NULL, 0, 0, NULL, '2018-12-21 11:49:44'),
+(63, 1106, NULL, 0, 0, NULL, '2018-12-21 11:49:44'),
+(64, 1107, NULL, 0, 0, NULL, '2018-12-21 11:49:44'),
+(65, 1108, NULL, 0, 0, NULL, '2018-12-21 11:49:44'),
+(66, 1109, NULL, 0, 0, NULL, '2018-12-21 11:49:44'),
+(67, 1110, NULL, 0, 0, NULL, '2018-12-21 11:49:44'),
+(68, 1111, NULL, 0, 0, NULL, '2018-12-21 11:49:44'),
+(69, 1112, NULL, 0, 0, NULL, '2018-12-21 11:49:45'),
+(70, 1113, NULL, 0, 0, NULL, '2018-12-21 11:49:45'),
+(71, 1114, NULL, 0, 0, NULL, '2018-12-21 11:49:45'),
+(72, 1115, NULL, 0, 0, NULL, '2018-12-21 11:49:45'),
+(73, 1116, NULL, 0, 0, NULL, '2018-12-21 13:15:26'),
+(74, 1117, NULL, 0, 0, NULL, '2018-12-21 13:20:16'),
+(75, 1118, NULL, 0, 0, NULL, '2018-12-21 13:56:37'),
+(76, 1119, NULL, 0, 0, NULL, '2018-12-21 17:23:14'),
+(77, 1120, NULL, 0, 0, NULL, '2019-01-02 12:01:10'),
+(78, 1121, NULL, 0, 0, NULL, '2019-01-08 19:52:02'),
+(79, 1122, NULL, 0, 0, NULL, '2019-01-20 19:23:25'),
+(80, 1123, NULL, 0, 0, NULL, '2019-01-21 17:04:32'),
+(81, 1124, NULL, 0, 0, NULL, '2019-01-22 21:21:13'),
+(82, 1125, NULL, 0, 0, NULL, '2019-02-27 01:21:22'),
+(83, 1126, NULL, 0, 0, NULL, '2019-03-09 10:11:59'),
+(84, 1127, NULL, 0, 0, NULL, '2019-03-10 03:10:39'),
+(85, 1128, NULL, 0, 0, NULL, '2019-03-11 20:13:55'),
+(86, 1129, NULL, 0, 0, NULL, '2019-03-15 12:15:39'),
+(87, 1130, NULL, 0, 0, NULL, '2019-03-19 11:41:31'),
+(88, 1131, NULL, 0, 0, NULL, '2019-03-19 18:00:48'),
+(89, 1132, NULL, 0, 0, NULL, '2019-03-19 18:06:34'),
+(90, 1133, NULL, 0, 0, NULL, '2019-03-27 14:27:05'),
+(91, 1134, NULL, 0, 0, NULL, '2019-04-16 10:18:48'),
+(92, 1096, NULL, 0, 0, NULL, '2019-04-19 13:58:36'),
+(93, 1135, NULL, 0, 0, NULL, '2019-05-02 17:37:43'),
+(94, 1136, NULL, 0, 0, NULL, '2019-05-03 12:43:25'),
+(95, 1137, NULL, 0, 0, NULL, '2019-05-03 17:29:28'),
+(96, 1043, NULL, 0, 0, NULL, '2019-05-09 15:44:22'),
+(97, 1138, NULL, 0, 0, NULL, '2019-05-10 15:08:28'),
+(98, 1139, NULL, 0, 0, NULL, '2019-05-29 15:38:46'),
+(99, 1140, NULL, 0, 0, NULL, '2019-07-01 15:32:44'),
+(100, 1141, NULL, 0, 0, NULL, '2019-07-11 15:22:31'),
+(101, 1142, NULL, 0, 0, NULL, '2019-07-15 14:05:49'),
+(102, 1143, NULL, 0, 0, NULL, '2019-07-16 17:58:26'),
+(103, 1144, NULL, 0, 0, NULL, '2019-07-30 16:58:22'),
+(104, 1145, NULL, 0, 0, NULL, '2019-08-01 17:01:46'),
+(105, 1146, NULL, 0, 0, NULL, '2019-08-08 18:42:04'),
+(106, 1147, NULL, 0, 0, NULL, '2019-08-09 15:55:28'),
+(107, 1148, NULL, 0, 0, NULL, '2019-08-18 21:50:35'),
+(108, 1149, NULL, 0, 0, NULL, '2019-09-04 18:49:44'),
+(109, 1150, NULL, 0, 0, NULL, '2019-09-27 03:57:13'),
+(110, 1151, NULL, 0, 0, NULL, '2019-11-08 02:11:17'),
+(111, 1152, NULL, 0, 0, NULL, '2019-12-13 04:06:41'),
+(112, 1153, NULL, 0, 0, NULL, '2019-12-14 17:37:55'),
+(113, 1154, NULL, 0, 0, NULL, '2020-05-18 07:00:35'),
+(114, 1155, NULL, 0, 0, NULL, '2020-05-21 15:02:35'),
+(115, 1156, NULL, 0, 0, NULL, '2020-06-13 21:29:51'),
+(116, 1157, NULL, 0, 0, NULL, '2020-06-25 10:59:41'),
+(117, 1158, NULL, 0, 0, NULL, '2020-07-04 14:16:54'),
+(118, 1159, NULL, 0, 0, NULL, '2021-03-03 17:30:33'),
+(119, 1160, NULL, 0, 0, NULL, '2021-06-08 14:51:31'),
+(120, 1161, NULL, 0, 0, NULL, '2021-06-09 16:50:33'),
+(121, 1162, NULL, 0, 0, NULL, '2021-06-09 17:06:03'),
+(122, 1163, NULL, 0, 0, NULL, '2021-06-09 17:52:05'),
+(123, 1164, NULL, 0, 0, NULL, '2021-06-15 08:42:29'),
+(124, 1165, NULL, 0, 0, NULL, '2021-06-19 19:31:31'),
+(125, 1166, NULL, 0, 0, NULL, '2021-11-01 15:14:35'),
+(126, 1167, NULL, 0, 0, NULL, '2021-11-02 09:17:46'),
+(127, 1168, NULL, 0, 0, NULL, '2022-04-18 14:46:15'),
+(128, 1169, NULL, 0, 0, NULL, '2022-09-21 10:58:55'),
+(129, 1170, NULL, 0, 0, NULL, '2022-11-02 13:41:40');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `apt_apply_users`
+--
+ALTER TABLE `apt_apply_users`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `apt_apply_users_user_id_index` (`user_id`),
+  ADD KEY `apt_apply_users_agent_id_index` (`agent_id`),
+  ADD KEY `apt_apply_users_brokerage_id_index` (`brokerage_id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `apt_apply_users`
+--
+ALTER TABLE `apt_apply_users`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=130;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `apt_apply_users`
+--
+ALTER TABLE `apt_apply_users`
+  ADD CONSTRAINT `apt_apply_users_agent_id_foreign` FOREIGN KEY (`agent_id`) REFERENCES `agents` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `apt_apply_users_brokerage_id_foreign` FOREIGN KEY (`brokerage_id`) REFERENCES `brokerages` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `apt_apply_users_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

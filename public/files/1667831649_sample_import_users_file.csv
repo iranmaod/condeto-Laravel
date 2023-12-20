@@ -1,0 +1,12 @@
+complex,building,apartment,role,firstname,lastname,dob,email,phone,primary,rent,rentdueday,moveindate
+Dec Test Complex 1,Dec Test Building One,Dec Test Apartment One,complex_manager,John1,Doe,01/19/2000,johndoe1@dummyemailxxxxxxsss.com,555 123 1232,,,,
+Dec Test Complex 1,Dec Test Building One,Dec Test Apartment One,building_manager,John2,Doe,01/19/2000,johndoe2@dummyemailxxxxxxsss.com,555 123 1232,,,,
+Dec Test Complex 1,Dec Test Building One,Dec Test Apartment One,facilities_manager,John3,Doe,01/19/2000,johndoe3@dummyemailxxxxxxsss.com,555 123 1232,,,,
+Dec Test Complex 2,Dec Test Building One,Dec Test Apartment One,complex_manager,John4,Doe,01/19/2000,johndoe4@dummyemailxxxxxxsss.com,555 123 1232,,,,
+Dec Test Complex 2,Dec Test Building One,Dec Test Apartment One,building_manager,John5,Doe,01/19/2000,johndoe5@dummyemailxxxxxxsss.com,555 123 1232,,,,
+Dec Test Complex 2,Dec Test Building Two,Dec Test Apartment One,building_manager,John6,Doe,01/19/2000,johndoe6@dummyemailxxxxxxsss.com,555 123 1232,,,,
+Dec Test Complex 1,Dec Test Building One,Dec Test Apartment One,tenant,John7,Doe,01/19/2000,johndoe7@dummyemailxxxxxxsss.com,555 123 1232,1,800,3,01/01/2015
+Dec Test Complex 1,Dec Test Building One,Dec Test Apartment One,tenant,Jane8,Doe,05/10/1982,janedoe8@dummyemailxxxxxxsss.com,555 777 4778,0,,0,01/02/2016
+Dec Test Complex 1,Dec Test Building One,Dec Test Apartment Two,tenant,Paul9,Smith,09/22/1990,paulsmith9@dummyemailxxxxxxsss.com,555 847 2736,1,1299,4,08/28/2017
+Dec Test Complex 1,Dec Test Building One,Dec Test Apartment Two,tenant,Peter10,Jackson,09/26/1960,peterjackson10@dummyemailxxxxxxsss.com,555 476 2122,0,,,03/14/2017
+Dec Test Complex 2,Dec Test Building One,Dec Test Apartment One,tenant,Eric11,Miller,04/08/1990,ericmiller11@dummyemailxxxxxxsss.com,555 476 9882,1,3000,4,04/24/2017

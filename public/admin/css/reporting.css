@@ -1,0 +1,297 @@
+
+.new_dash
+{
+	margin:0px 0px;
+	padding-left:10px;
+	background:#343b43;
+	color:#cdcdcd;
+}
+
+.new_dashboard .mainbar
+{
+	background:#343b43;
+}
+
+.new_dashboard .mainbar .bread-crumb
+{
+	background:#F3F3F3;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:0px;
+}
+
+.new_dashboard .mainbar .main-container,
+.new_dashboard .mainbar .container
+{
+	padding:0px;
+	margin:0px;
+}
+
+.new_dash .row.padded-left
+{
+	padding-left:30px;
+}
+
+.row.dash_top_bar
+{
+	background:#232a32;
+	padding: 10px 20px;
+}
+
+.dash_top_bar .dash_top_bar_left
+{
+	display:inline-block;
+}
+
+.dash_top_bar .dash_top_bar_right
+{
+	float:right;
+	display:inline-block;
+}
+
+.dash_top_bar .dash_top_bar_right a
+{
+	color:#bbb;
+	text-transform:uppercase;
+}
+
+.table_block
+{
+	display:table;
+	width:100%;
+}
+
+.table_block .table_row
+{
+	width:100%;
+	clear:both;
+}
+
+.table_block .table_row .table_cell
+{
+	display:table-cell;
+	text-align:left;
+	width:100%;
+	min-width:150px;
+}
+
+.table_block .table_row .table_cell a
+{
+	color:#fff !important;
+	font-weight:bold;
+}
+
+.table_row_splitter
+{
+	width:100%;
+	border-top:1px solid;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.detail_option
+{
+	text-align:center;
+	font-weight:bold;
+	margin-top:10px;
+	cursor:hand;
+	cursor:pointer;
+}
+
+.close_detail_option
+{
+	color:#c59998;
+}
+
+.graph_container
+{
+	text-align:center;
+}
+
+h2
+{
+	font-size:18px;
+	font-weight:bold;
+	text-align:left;
+	color:#cccccc;
+}
+
+.graph_container .info_layer
+{
+	display:none;
+}
+
+.graph_layer .inside_block_information
+{
+	position:absolute;
+	top:30%;
+	text-align:center;
+	width:100%;
+	left:0px;
+	font-size:25px;
+	font-weight:bold;
+	color:#fff;
+}
+
+.graph_layer .inside_block_information p
+{
+	display:block;
+	clear:both;
+	width:100%;
+	margin-bottom:20px;
+}
+
+.graph_layer .inside_block_information p small
+{
+	clear:both;
+	width:100%;
+	display:block;
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:bold;
+	color:#ccc !important;
+}
+
+.graph_layer .inside_block_information p small a
+{
+	color:#fff;
+}
+
+.graph_layer canvas
+{
+	margin-bottom:-30px;
+}
+
+.graph_layer input
+{  
+	display:none;
+}
+
+.line_graph_container
+{
+	width:100%;
+	height:400px;
+	margin-bottom:50px;
+}
+
+.line_graph_container .graph_area
+{
+	width:100%;
+	height:400px;
+}
+
+.line_graph_container .top_right_icon
+{
+	display:none;
+}
+
+.line_graph_container h2 a
+{
+	color:#fff;
+}
+
+.graph_numbers, .toggle_section
+{
+	cursor:pointer;	
+}
+
+.demo-placeholder
+{
+	width:100%;
+	height:400px;
+}
+
+.stat_section
+{
+	display:none;
+	width:100%;
+}
+
+#role_stats
+{
+	display:block;
+}
+
+.title_splitter
+{
+	background:none !important;
+	clear:both;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px 20px;
+	font-weight:bold;
+	font-size:18px;
+	color:#fff;
+}
+
+.title_splitter small
+{
+	font-size:12px;
+	font-weight:normal;
+}
+
+.line_graphs
+{
+	margin-bottom:100px;
+}
+
+.pieplaceholder
+{
+	width:100%;
+	height:150px;
+}
+
+.pieplaceholder .legendLabel
+{
+	color:#fff;
+	text-align:left;
+}
+
+.email_blocks .graph_container .info_layer .table_row > div:nth-of-type(1)
+{
+	float:left;
+	width:50%;
+}
+
+.email_blocks .graph_container .info_layer .table_row > div:nth-of-type(2)
+{
+	float:right;
+	width:50%;
+	text-align:right;
+}
+
+.email_blocks .graph_container .graph_layer
+{
+	width:75%;
+}
+
+.top_right_icon
+{
+	position:absolute;
+	right:20px;
+	top:15px;
+	font-size:25px;
+}
+
+.top_right_icon i
+{
+	color:#8e9397;
+}
+
+.datepicker
+{
+	border:0px;
+	background:#eee;
+	padding:2px 10px;
+	margin-right:10px;
+}
+
+.dash_top_bar_left label
+{
+	margin-right:10px;
+}
+
+.email_blocks h2
+{
+	text-align:left;
+}

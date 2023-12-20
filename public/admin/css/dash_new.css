@@ -1,0 +1,166 @@
+.quick_link_box
+{
+
+}
+
+.quick_link_box .search_bar
+{
+	margin-left:5px;
+	padding-right:5px;
+}
+
+.quick_link_box .search_bar .simple_search
+{
+	width:100%;
+	border:0px;
+	border-bottom:1px solid #ccc;
+	background:#efefef;
+	padding:5px 10px;
+	position:relative;
+}
+
+.quick_link_box .search_bar:after
+{
+	content:'\f002';
+	font-family:'FontAwesome';
+	position:absolute;
+	top:5px;
+	right:15px;
+	width:20px;
+	height:20px;
+}
+
+.quick_link_box h3
+{
+	font-size:16px;
+	margin-left:15px;
+}
+
+.quick_link_box ol,
+.quick_link_box ul
+{
+	margin:0px 5px 0px 5px;
+	padding:0px;
+	list-style:none;
+}
+
+.quick_link_box ol li
+{
+	border-top:1px solid #ccc;
+	padding:5px 10px;
+}
+
+.quick_link_box ul
+{
+	text-align:center;
+}
+
+.quick_link_box ul li
+{
+	display:inline-block;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:10px;
+}
+
+.quick_link_box .viewAll
+{
+	display:block;
+	text-align:right;
+	margin-right:5px;
+	margin-left:5px;
+	font-weight:bold;
+	background:#eee;
+	border-top:1px solid #ccc;
+	padding:5px 10px 5px 5px;
+}
+
+
+.widget-head .pull-right a
+{
+	margin-left:10px;
+	color:#333;
+}
+
+.widget-head .pull-left i
+{
+	margin-left:0px;
+	font-size:20px;
+	margin-right:10px;
+	color:#ddd;
+	z-index:10;
+}
+
+.widget-head .pull-left span
+{
+	position:relative;
+	z-index:11;
+}
+
+.new_dash
+{
+	padding:20px !important;
+}
+
+.shortcuts
+{	
+	border:1px solid #ccc;
+	display:inline-block;		
+	width:calc(25% - 20px);
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+
+.shortcut_row > div:nth-of-type(1)
+{
+	margin-left:0;
+}
+
+.shortcuts h4
+{
+	margin:0;	
+	padding:0 10px;
+		background:#ccc;
+	font-size:14px;
+}
+
+.shortcuts ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.shortcuts ul li
+{
+	padding:3px 10px;
+	border-top:1px solid #ccc;
+}
+
+
+.memeber_image
+{
+	width:50px;
+	height:50px;
+	background-size:cover;
+	display:inline-block;
+}
+
+.shortcuts a span
+{
+	display:inline-block;
+	width:calc(100% - 65px);
+	margin-left:15px;
+	vertical-align:top;
+}
+
+.shortcuts a h6
+{
+	float:left;
+}
+
+.shortcuts a date
+{
+	float:right;
+}

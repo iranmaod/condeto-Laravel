@@ -1,0 +1,157 @@
+.stat_column
+{
+	width:100%;
+	max-width:300px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0px 10px 0px 10px;
+}
+
+.stat_entity
+{
+	width:100%;	
+	max-width:300px;
+	display:inline-block;
+	color:#fff;
+	margin:0px 10px 20px 10px;
+}
+
+.stat_entity .main_block_container
+{
+	display:table;
+	width:100%;
+}
+
+.stat_entity.red
+{
+	background:#EF4B49;
+}
+
+.stat_entity.light_blue
+{
+	background:#26C1F1;
+}
+
+.stat_entity.yellow
+{
+	background:#FEC10F;
+}
+
+.stat_entity.teal
+{
+	background:#41BFA7;
+}
+
+.stat_entity.orange
+{
+	background:#F06A23;
+}
+
+.stat_entity.purple
+{
+	background:#6A68B0;
+}
+
+.stat_entity.pink
+{
+	background:#D572AB;
+}
+
+.stat_entity.blue
+{
+	background:#264181;
+}
+
+.stat_entity.green
+{
+	background:#8FC73E;
+}
+
+.stat_entity .text_block
+{
+	display:table-cell;
+	float:left;
+	padding:10px 0px 0px 20px;
+min-height:100px;
+}
+
+.stat_entity .text_block p.block_title
+{
+	font-size:18px;
+}
+
+.stat_entity .text_block p.block_title a
+{
+	color:#fff;
+}
+
+.stat_entity .text_block p.block_value
+{
+	font-size:38px;
+	margin-top:10px;
+}
+
+.stat_entity .icon_block
+{
+	display:table-cell;
+	float:right;
+	padding:15px 20px 0px 0px;
+}
+
+.stat_entity .icon_block .icon_container
+{
+	background:rgba(0,0,0,0.15);
+	width:60px;
+	height:60px;
+	border-radius:30px;
+	text-align:center;
+	font-size:30px;	
+}
+
+.stat_entity .icon_block .icon_container i
+{
+	margin-top:15px;
+}
+
+.stat_entity .more_info_block_link
+{
+	background:rgba(0,0,0,0.15);
+	margin-top:15px;
+	text-align:center;
+	padding:3px 0px;
+	cursor:hand;
+	cursor:pointer;
+}
+
+.stat_entity .more_info_block_link span,
+.stat_entity .more_info_block_link i
+{
+	display:inline-block;		
+	vertical-align:middle;
+}
+
+.stat_entity .more_info
+{
+	background:#fff;
+	color:#000;
+	padding:20px;	
+	position:absolute;
+	width:300px;
+	display:none;
+	z-index:1000;
+	max-height:300px;
+	overflow:auto;
+}
+
+.stat_entity .more_info ul
+{
+	margin-left:5px;
+	padding-left:0;
+	list-style-type: circle;
+}
+
+.stat_entity .more_info .chart
+{
+	width:250px;
+	height:200px;
+}
